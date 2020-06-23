@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Ini untuk bagian Header */
+header {
+    background-color: #b8e994;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-header img {
+    width: 120px;
+    height: 75px;
+    float: left;
+}
+/* Batas untuk Header */
+
+
+/* Ini untuk bagian Main*/
+.top-wrapper {
+  padding-top: 330px;
+  background-image: url(../assets/images/banner.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  height: 1050px;
+}
+
+.top-wrapper img {
+  opacity: 0.3;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin: 0 30px 10px 30px;
+}
+
+.btn-wrapper {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.btn-wrapper h3 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.btn-wrapper .fa {
+  margin-right: 8px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.linkedin {
+  background-color: #239b76;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 0;
+  width: 120px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.clear {
+  clear: both;
+}
+
+.top-arrows {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.top-arrows p {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.arrows {
+  position: relative;
+  animation-name: arrow;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+@keyframes arrow {
+  0%   {top:0px;}
+  50%  {top:40px;}
+  100% {top:0px;}
+}
+
+.lesson-wrapper {
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img {
+  width: 200px;
+  height: 200px;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #696969;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+/* Batas untuk Main*/
+
+
+/* Ini untuk bagian footer */
+footer {
+    background-color: #78e08f;
+}
+
+.logo-footer {
+  float: left;
+  padding-top: 35px;
+}
+
+.logo-footer img {
+    width: 120px;
+    height: auto;
+}
+
+.social-media li {
+    margin: 0 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+.social-media {
+    margin: 15px 0 20px 0;
+    float: right;
+    text-align: center;
+}
+
+.social-media p {
+  padding-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Batas untuk Footer */
+
+
+/* Ini untuk Scrool-button */
+#scroll-btn {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #02704d;
+    color: white;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all .5s;
+}
+
+#scroll-btn:hover {
+    background-color: #1d2129;
+    color: yellow;
+}
+/* Batas untuk Scrool-button */
+
+
+/* Ini untuk bagian Menu */
+.menu {
+  float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    line-height: 75px;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    background-color: #89ad6f;
+    font-weight: bold;
+    color: white;
+}
+
+nav .menu-icon {
+    font-size: 30px;
+}
+
+nav li.icon {
+    display: none;
+}
+/* Batas untuk Menu */

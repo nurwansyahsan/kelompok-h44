@@ -1,0 +1,112 @@
+@media all and (max-width: 1000px) {
+   .container {
+      max-width: 1170px;
+      width: 100%;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
+   nav a {
+      width: 90px;
+   }
+
+   .lesson {
+      width: 50%;
+      margin-bottom: 30px;
+   }
+
+   .top-destinasi .section-title, .top-tentang .section-title, .top-fasilitas .section-title {
+      text-align: center;
+      font-size: 22px;
+   }
+
+   .middle-kontak {
+      width: 100%;
+   }
+}
+
+@media all and (max-width: 670px) {
+   nav li {
+      display: none;
+   }
+
+   nav li.icon {
+      display: block;
+   }
+
+   nav a {
+      width: 60px;
+   }
+
+   .top-wrapper {
+      padding-top: 250px;
+      text-align: left;
+   }
+
+   .top-wrapper h1 {
+      font-size: 30px;
+      line-height: 50px;
+      margin-right: 20px;
+      margin-left: 20px;
+   }
+
+   .top-wrapper p {
+      font-size: 16px;
+      line-height: 25px;
+      margin-right: 20px;
+      margin-left: 20px;
+   }
+
+   .top-arrows {
+      padding-top: 120px;
+   }
+
+   .btn {
+      width: 90%;
+   }
+
+   .lesson {
+      width: 100%;
+   }
+
+   .logo-footer {
+      width: 100%;
+      text-align: center;
+      padding-top: 20px;
+   }
+
+   .social-media {
+      width: 100%;
+      text-align: center;
+   }
+
+   .kiri {
+      width: 100%;
+      padding-bottom: 50px;
+   }
+
+   .kanan {
+      width: 100%;
+   }
+
+   table {
+      width: 95%;
+      font-size: 15px;
+      border: 1px solid #d2d2d2;
+   }
+
+   th, td {
+      text-align: center;
+   }
+
+   tr:nth-child(odd) {
+      background-color: #d2d2d2;
+   }
+
+   .button {
+      width: 80%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+
+}

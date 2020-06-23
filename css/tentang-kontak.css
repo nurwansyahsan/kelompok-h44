@@ -1,0 +1,126 @@
+/* Ini untuk bagian Kontak*/
+.clear {
+  clear: both;
+}
+
+.top-kontak {
+	text-align: center;
+	height: 20%;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.middle-kontak {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bottom-kontak {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.kiri {
+	width: 50%;
+	float: left;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.kanan {
+	width: 50%;
+	float: right;
+	padding: 10px 0;
+  font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+}
+
+
+.button {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.instagram {
+  background-color: #DC143C;
+  margin: 20px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin: 20px;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin: 20px;
+}
+
+.pinterest {
+  background-color: #FF0000;
+  margin: 20px;
+}
+
+.linkedin {
+  background-color: #0000CD;
+  margin: 20px;
+}
+
+input{
+  width: 220px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding: 5px;
+  font-size: 18px;
+}
+/* Batas untuk Kontak*/
+
+
+/* Ini untuk bagian tentang*/
+.top-tentang {
+  margin-top: 100px;
+}
+
+.top-tentang h1{
+	text-align: center;
+  line-height: 50px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+
+.bottom-tentang {
+  margin: 50px 0;
+}
+
+.bottom-tentang p{
+	font-size: 18px;
+	font-family: sans-serif;
+  text-align: justify;
+  padding: 10px 20px;
+}
+/* Batas untuk tentang*/
